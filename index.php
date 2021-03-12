@@ -10,6 +10,15 @@
     <!-- html comment -->
     <h1>Learning PHP Programming</h1>
     <br/>
+
+    <h2>Follow the link to navigate the page</h2>
+        <ul>
+            <li><a href="ifstatement.php">If Statement</a></li>
+            <li><a href="switchstatement.php">Switch Statement</a></li>
+            <li><a href="forloop.php">For Loop</a></li>
+            <li><a href="whiledowhileloop.php">Do While Loop</a></li>
+        </ul>
+
     <?php
     // Single line comment in PHP
     /* 
@@ -22,7 +31,7 @@
     ?>
 
     <?php 
-     
+
         // declare variable
         $name = 'RK Varun';
         $age = 22;
@@ -31,6 +40,9 @@
         echo $name;
         echo "<h1>My Name is: ".$name. ' </h1>';
         echo "<h1>My Age is: ".$age. ' </h1>';
+
+        
+
     ?>
 
 </body>
