@@ -17,6 +17,7 @@
             <li><a href="switchstatement.php">Switch Statement</a></li>
             <li><a href="forloop.php">For Loop</a></li>
             <li><a href="whiledowhileloop.php">Do While Loop</a></li>
+            <li><a href="array.php">Array in PHP</a></li>
         </ul>
 
     <?php

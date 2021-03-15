@@ -7,13 +7,33 @@
     <title>PHP Dev - While/Do While Loop</title>
 </head>
 <body>
-<h1>While/Do While Loops - Condition Controlled Loops </h1>
+<h1>While Loops - Pre Condition Controlled Loops </h1>
 
 <?php
-//While/Do while Loop - Condition Controlled Loop
+//While Loop - Pre Condition Controlled Loop
+    $grade = 0;
+   // while($grade < 10){
+    //   echo '<p>I am less than 10..!!</p>';  
+    //}   
 
+    while($grade < 10){
+        echo '<p>I am less than 10..!!</p>';
+        $grade++;
+    }
+
+        echo 'Exit Loop!';
 ?>
 
+<h1>D0-While Loops - Condition Controlled Loops </h1>
+    <?php
+    //Do-While Loop - Post condition loop
+    $grade = 0;
+        do{
+            echo '<p>Performing Do-While Loop..!!</p>';
+            $grade++;
+        }while($grade < 10);
+        echo 'Exit Loop!';
+    ?>
     
 </body>
 </html>
